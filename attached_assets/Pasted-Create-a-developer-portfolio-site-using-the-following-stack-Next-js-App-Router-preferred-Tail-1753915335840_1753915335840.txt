@@ -1,0 +1,198 @@
+Create a developer portfolio site using the following stack:
+- Next.js (App Router preferred)
+- Tailwind CSS (with Tailwind Typography plugin)
+- Optional: Node.js backend for contact form submission
+
+🎨 UI should follow this inspiration:
+https://rahul0xcdf-p0rtf0lio.vercel.app
+
+✅ Must Include:
+- Sticky top navigation bar: Home, About, Projects, Skills, Workshops, Contact
+- Smooth-scroll to each section
+- Terminal-themed UI with monospace fonts and CLI prompts like:
+  > About  
+  $ whoami  
+- Section numbers (01., 02., etc.)
+
+📄 Sections & Content:
+
+---
+
+1. **Hero Section**
+   - Name: Suchir M Velpanur  
+   - Tagline: "CS Undergrad | Backend & ML Enthusiast | Aspiring SWE"  
+   - Location: Bangalore, India  
+   - Buttons:
+     - View Resume (PDF download placeholder)
+     - Contact Me (scrolls to Contact)
+
+---
+
+2. **About Me**
+   - BTech CSE student (3rd year) at PES University (GPA: 9.1)
+   - Passionate about backend engineering, GenAI, and system scalability
+   - Dedicated learner with interest in AI research and real-world deployments
+   - 5× CNR Rao Scholarships (Top 5%), 1× MRD Scholarship (Top 10%)
+
+---
+
+3. **Education**
+$ cat education.txt
+
+yaml
+Copy
+Edit
+   - PES University — BTech CSE  
+     Nov 2022 – Present | GPA: 9.1/10.0  
+     Courses: DSA, CN, OS, DBMS, GenAI, ML, AR/VR, Cloud Computing, OOP  
+   
+   - Venkat Intl. Public School  
+     12th GPA: 9.58 (2020–22)  
+     10th GPA: 9.74 (2019–20)
+
+---
+
+4. **Experience**
+$ cat experience.txt
+
+yaml
+Copy
+Edit
+
+- 🧠 **HPE** (Jan 2025 – Present)  
+  Built AI-based LLM agent framework for log-based root cause analysis.  
+  REST API simulator with live system metrics & optional UI.
+
+- 🔐 **PESU CFIS** (Jun – Aug 2024)  
+  Worked on GenAI for Digital Forensics, Malware, DDoS defense.  
+  Benchmarked LLMs vs LSTMs for log analysis in research paper.
+
+- 🛠️ **Dyashin Technosoft Pvt Ltd** (Jun – Jul 2024)  
+  Backend DBMS system using Spring Boot; tested via Postman; hosted on AWS EC2.
+
+---
+
+5. **Projects**
+$ ls projects/
+
+pgsql
+Copy
+Edit
+
+- **OptimaSQL**  
+  SQL query optimizer with TPC-H benchmark visualizer  
+  _Flask, React, PostgreSQL, Node.js_
+
+- **DiagnoSys Bot**  
+  LLM-based debugging assistant for storage system diagnostics  
+  _LangChain, Streamlit, Flask, PyPDF_
+
+- **VAD Music Generator**  
+  Emotion-aware music recommender using VAD scores  
+  _PyTorch, Librosa, TensorFlow, Audiocraft_
+
+- **TrafficSync**  
+  Real-time traffic sim with dynamic vehicle flow using Google Maps data  
+  _Three.js, Google Maps API, Node.js_
+
+- **EduStream**  
+  Azure-hosted e-learning portal with seamless course discovery  
+  _Next.js, Tailwind CSS, Django, PostgreSQL_
+
+- **PseudoKube**  
+  Simulated pod orchestration with node heartbeats and rescheduling  
+  _Python, FastAPI, Docker, Shell, Git_
+
+Each card includes title, 2-line summary, tech stack as tags, and placeholder link
+
+---
+
+6. **Skills**
+$ skill --proficiency
+
+yaml
+Copy
+Edit
+
+- ~/Languages: Java, C++, C, Python, JavaScript, Go, Shell, HTML/CSS  
+- ~/Frameworks: React, Next.js, Express, Flask, Spring Boot, TensorFlow, PyTorch  
+- ~/Tools: GCP, AWS, Docker, Kubernetes, Git, Terraform, Vim, VS Code  
+- ~/Databases: PostgreSQL, MySQL, MongoDB, ScyllaDB  
+- ~/Soft Skills: Presentation, Strategic Thinking, Change Management  
+
+Add skill bars or CLI-style dot progress indicators (e.g., Python ███████▌ 90%)
+
+---
+
+7. **Workshops**
+$ cat talks.txt
+
+markdown
+Copy
+Edit
+
+- Hosted **AlgoMania** – competitive programming event  
+- Mentored **Inquisitio** – research paper competition  
+- Organized **Kodikon 2.0** – national hackathon  
+- Delivered **Web Security with Burp Suite** – Geek Girl Program (Aug 2024)
+
+---
+
+8. **Achievements**
+$ cat achievements.log
+
+markdown
+Copy
+Edit
+
+- Raffle Winner – IBM Z Datathon 2024 (466 teams)  
+- Honorable Mention – MUN (Russia Delegate, People’s Conference '23)  
+- Top 7 – EPOCH Datathon (AI/ML)  
+- Top 7 – University Cyber CTF  
+- Top 9 – Great Bengaluru Hackathon
+
+---
+
+9. **Contact**
+$ ping suchir
+
+yaml
+Copy
+Edit
+
+- Email: smv1524@gmail.com  
+- GitHub: https://github.com/suchirmv-1524  
+- LinkedIn: https://linkedin.com/in/suchir-m-velpanur-519413296  
+- LeetCode: https://leetcode.com/u/suchircodezzz
+
+Add a working contact form using Formspree or Node.js API route  
++ Email validation + success/failure confirmation
+
+---
+
+👨‍💻 Footer
+$ echo "Let's work together"
+Designed & Built by Suchir M Velpanur
+© 2025 – All rights reserved
+
+markdown
+Copy
+Edit
+
+---
+
+💡 Bonus Features:
+- Tailwind dark mode toggle  
+- Framer Motion animations on scroll  
+- Sticky navbar  
+- Mobile-responsive design  
+- Hamburger menu for small screens  
+
+🗂 File Structure:
+- `app/` or `pages/`  
+- `components/` (Hero, About, Projects, etc.)  
+- `public/` → `resume.pdf`, `profile.png`
+
+🌍 Deploy on Vercel or Replit (Replit CLI theme styling)
+
+📌 Output: A single-page CLI-themed portfolio with full resume integration, beautiful animations, and modern web stack best practices

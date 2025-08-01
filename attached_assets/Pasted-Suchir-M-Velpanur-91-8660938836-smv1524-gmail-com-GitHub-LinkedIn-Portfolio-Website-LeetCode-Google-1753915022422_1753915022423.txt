@@ -1,0 +1,65 @@
+Suchir M Velpanur
++91 8660938836 smv1524@gmail.com
+GitHub LinkedIn Portfolio Website
+LeetCode
+Google Cloud
+EDUCATION
+PES University BTech - Computer Science And Engineering Nov. 2022 - Present
+GPA : 9.1/10.0
+Relevant Courses : Data Structures & Algorithms, OOP With C++
+, Web Technologies, Statistics, Computer Networks, Operating Systems, Linear Algebra,
+Database Management Systems, Machine Learning, Augmented & Virtual Reality, Graph Theory, Cloud Computing, Generative AI
+Awards : 5 x Prof. CNR Rao Scholarship (Top 5%), 1 x Prof. MRD Scholarship (Top 10%)
+Venkat International Public School CBSE 12th Board Exam Venkat International Public School CBSE 10th Board Exam Jun. 2020 - Jul. 2022
+GPA : 9.58/10.0
+May. 2019 - Mar. 2020
+GPA : 9.74/10.0
+SKILLS
+Languages : Java, C++
+, C, Python, R, Go, JavaScript, HTML, Tailwind CSS, BootStrap, React.js , Next.js, Express.js, Node.js, Shell Scripting
+Databases : MySQL, PostgresSQL, MongoDB, ScyllaDB
+Frameworks : MERN Stack, Bootstrap, Flutter, Firebase, PyTorch, TensorFlow, Docker, Kubernetes
+Tools and IDEs : Git, VS Code, Vim, Google Cloud, AWS, Kaggle, Google Colab, Spring Tool Suite, Postman, Cisco Packet Tracer, Anaconda, Arduino IDE
+Non Technical Skills : Goal Setting, Change Management, Innovation & Creativity, Presentation Skills, Strategic Thinking, Sharpening Business Acumen
+WORK EXPERIENCE
+Project Intern at Hewlett Packard Enterprise (HPE) Jan. 2025 - Present
+Developed an AI-driven LLM agent framework for automated issue diagnosis in a simple simulated storage system using contextual log analysis & root
+cause analysis
+Built a Python-based REST API simulator with real time metrics tracking (latency, capacity, saturation) and optional UI for system visualization.
+Research Intern at Centre For Information Security, Forensics and Cyber Resilience, PES University Jun. 2024 - Aug 2024
+Worked on various applications of AI/ML For Cyber Security in domains such as Digital Forensics, Malware Detection, DDoS Mitigation etc.
+Worked on a research paper for studying the use of LLMs for Log Analysis and performance comparisons with LSTMs and Transformers
+Backend Engineering Intern at Dyashin Technosoft Pvt Ltd. Jun. 2024 - Jul. 2024
+Developed a Banking Database Management System using Java Spring Boot
+Used Postman to test API based on HTTP requests
+Used AWS EC2 instances to deploy the website
+PROJECTS
+OptimaSQL : Built an SQL query optimiser that evaluates and visualises alternative execution plans for performance comparison using TPC-H benchmark
+data.
+Tech used : Flask, React, PostgreSQL, TPC-H dataset, Poetry, Node.js
+DiagnoSys Bot : Developed an intelligent assistant agent using LLMs to identify and debug issues in a simple storage system architecture, aiming to
+enhance system reliability and reduce downtime through automated root cause analysis.
+Tech used : LangChain, LangGraph, Streamlit, REST APIs, Flask, ChromaDB, PyPDF, Pandas, Requests
+Multi Agent Music Generation Framework from VAD Scores : Developed a multimodal framework that analyzes both audio and facial imagery to detect
+emotional states via Valence, Arousal & Dominance (VAD) scores, & recommends music aligned with the user’s emotional context. The system bypasses
+transcription by extracting VAD signals directly from raw inputs and uses emotion-to-music mappings for personalized recommendations.
+Tech used : PyTorch, TensorFlow, Transformers, Librosa, Audiocraft, ChromaDB, Streamlit, SpeechRecognition, Pydub Google Generative AI, NumPy
+TrafficSync : Developed a real-time 3D traffic simulation that adapts congestion control based on real-time Google Maps data and dynamically adjusting
+vehicle flow at a busy Bangalore intersection
+Tech used : Three.js, Node.js, Google Maps API, JavaScript, Vercel
+EduStream : Implemented an Azure-hosted e-learning platform utilizing Azure App Services and Azure PostgreSQL, designed for easy course uploads
+and seamless topic discovery for learners.
+Tech used : Next.js, Tailwind CSS, PostgreSQL, Django, Azure App Services
+PseudoKube : Simulated a lightweight Kubernetes-like cluster orchestration framework with pod scheduling using scheduling algorithms (First Fit, Best
+Fit, Worst Fit), node health monitoring via heartbeats, and dynamic pod rescheduling for failure recovery
+Tech used: Python, FastAPI, Docker, Shell Scripting, Node.js, Git, Unix CLI, Scheduling Algorithms
+ACCOMPLISHMENTS
+Won the Raffle Prize in the IBM Z Datathon 2024 among 466 teams in the Sustainable Development Track
+Received an Honourable Mention as the Delegate of Russia in the Continuous Crisis Committee at the People's Conference '23
+Stood 7th out of 40 teams in the EPOCH Datathon hosted by the AI/ML Club of our University
+Stood 7th out of 52 teams in a CTF hosted by the Cyber Security club of our University
+Ranked Top 9 out of 27 teams in the Multilingual Loan Advisory Track at The Great Bengaluru Hackathon, a national level hackathon
+VOLUNTEERING ACTIVITIES
+Hosted a Competitive Coding Contest, AlgoMania, for all CSE students of the University
+Mentored participants in Inquisitio, a research paper writing contest
+Part of the team hosting Kodikon 2.0, a nationwide hackathon

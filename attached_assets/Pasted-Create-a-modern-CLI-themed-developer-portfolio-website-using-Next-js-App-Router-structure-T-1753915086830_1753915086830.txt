@@ -1,0 +1,214 @@
+Create a modern, CLI-themed developer portfolio website using:
+
+- Next.js (App Router structure)
+- Tailwind CSS with Tailwind Typography
+- Framer Motion for subtle animations
+- Mobile responsive, dark-mode toggle
+- Inspired by this layout & style: https://rahul0xcdf-p0rtf0lio.vercel.app
+
+🔧 Folder structure:
+- Use `/app` directory with clean component structure
+- Include reusable layout components for section styling
+- Keep design minimal and inspired by terminal CLI (monospace fonts, green/cyan highlights, shadowed blocks)
+
+🧭 Navigation Sections (with smooth scroll):
+> Home  
+> About  
+> Projects  
+> Skills  
+> Workshops  
+> Contact
+
+---
+
+### 01. Home (Hero Section)
+$ whoami
+Suchir M Velpanur
+CS Undergrad | Backend & ML Enthusiast | PES University
+Based in Bangalore, India
+
+yaml
+Copy
+Edit
+Buttons:
+- `View Projects` → scroll to Projects section  
+- `Contact Me` → scroll to Contact section
+
+---
+
+### 02. About
+About
+$ cat about.txt
+
+yaml
+Copy
+Edit
+- I’m a 3rd-year BTech CSE student at PES University (GPA: 9.1)  
+- Interests: backend systems, machine learning, cloud infra, scalable platforms  
+- 5× Prof. CNR Rao Scholarship (Top 5%)  
+- 1× Prof. MRD Scholarship (Top 10%)  
+- Core Courses: DSA, OS, CN, DBMS, GenAI, ML, AR/VR, Graph Theory
+
+---
+
+### 03. Education
+Education
+$ cat education.txt
+
+yaml
+Copy
+Edit
+
+**PES University**  
+BTech - Computer Science and Engineering  
+📅 Nov 2022 – Present | GPA: 9.1/10.0  
+
+**Venkat Intl. Public School**  
+CBSE 12th GPA: 9.58 | CBSE 10th GPA: 9.74
+
+---
+
+### 04. Experience
+Experience
+$ cat experience.txt
+
+yaml
+Copy
+Edit
+- 🧠 **Hewlett Packard Enterprise (Jan 2025 – Present)**  
+  Developed AI-driven LLM agent for log analysis + Python REST simulator
+
+- 🔐 **Centre for Information Security (Jun–Aug 2024)**  
+  Researched AI/ML for malware detection, DDoS mitigation, and forensic analysis
+
+- 🖥️ **Dyashin Technosoft (Jun–Jul 2024)**  
+  Developed a banking DBMS using Spring Boot, deployed on AWS EC2
+
+---
+
+### 05. Projects
+Projects
+$ ls projects/
+
+markdown
+Copy
+Edit
+
+Each card shows: Title, 2-line Description, Tech Used, [Source]
+
+- **OptimaSQL**  
+  SQL query optimizer visualizing execution plans (TPC-H)  
+  _Flask, PostgreSQL, React_
+
+- **DiagnoSys Bot**  
+  LLM agent for debugging simulated storage systems  
+  _LangChain, Streamlit, Flask_
+
+- **VAD Music Framework**  
+  Emotion-based multi-agent music recommendation system  
+  _PyTorch, Transformers, Google Generative AI_
+
+- **TrafficSync**  
+  Live 3D traffic sim with congestion control from Google Maps data  
+  _Three.js, Node.js, Google Maps API_
+
+- **EduStream**  
+  Azure-hosted e-learning platform with seamless upload/discovery  
+  _Next.js, Tailwind, Django, Azure PostgreSQL_
+
+- **PseudoKube**  
+  Lightweight pod scheduling simulator like Kubernetes  
+  _Python, FastAPI, Docker, Shell_
+
+---
+
+### 06. Skills
+Skills
+$ skill --proficiency
+
+yaml
+Copy
+Edit
+
+Organized terminal-style blocks:
+
+- ~/Languages  
+  Java, Python, C++, JavaScript, Go, Shell, R
+
+- ~/Frameworks  
+  React, Next.js, Express, Spring Boot, Flask, TensorFlow, PyTorch
+
+- ~/Cloud & Tools  
+  GCP, AWS, Docker, Kubernetes, Git, Vim, VS Code, Terraform
+
+- ~/Databases  
+  PostgreSQL, MySQL, MongoDB, ScyllaDB
+
+- ~/Soft Skills  
+  Presentation, Strategic Thinking, Goal Setting, Innovation
+
+Include CLI-style **progress bars** (optional):  
+Python: 90% | ML/AI: 80% | Web Dev: 85% | GCP: 75% | Docker/K8s: 70%
+
+---
+
+### 07. Workshops
+Workshops
+$ cat talks.txt
+
+yaml
+Copy
+Edit
+
+- Hosted: **AlgoMania** – Competitive Coding Contest  
+- Mentor: **Inquisitio** – Research Paper Writing  
+- Organizer: **Kodikon 2.0** – Nationwide Hackathon  
+- Presented: Web Security (Burp Suite) @ Geek Girl Program
+
+---
+
+### 08. Achievements
+Achievements
+$ cat awards.log
+
+yaml
+Copy
+Edit
+
+- 🎯 IBM Z Datathon – Raffle Prize Winner (466 teams)  
+- 🏅 People's Conference ‘23 – Hon. Mention (Russia Delegate)  
+- 🧠 Top 7 – EPOCH AI/ML Datathon  
+- 🔓 Top 7 – University CTF by Cyber Club  
+- 💻 Top 9 – Multilingual Hack @ Great Bengaluru Hackathon
+
+---
+
+### 09. Contact
+Contact
+$ ping suchir
+
+yaml
+Copy
+Edit
+
+- Email: smv1524@gmail.com  
+- GitHub: https://github.com/suchirmv-1524  
+- LinkedIn: https://linkedin.com/in/suchir-m-velpanur-519413296  
+- LeetCode: https://leetcode.com/u/suchircodezzz/  
+
+Include a **working contact form** (use Formspree or Replit DB)
+
+---
+
+👨‍💻 Footer  
+$ echo "Let's work together"
+Designed & Built by Suchir M Velpanur
+© 2025 - All rights reserved
+
+yaml
+Copy
+Edit
+
+---
+
+Deploy it as a fully functional, aesthetic terminal-themed portfolio that mirrors the layout of rahul0xcdf.vercel.app but reflects the identity, experience, and technical profile of Suchir M Velpanur.

@@ -1,0 +1,131 @@
+Create a developer portfolio site using the following stack:
+- Next.js (App Router preferred)
+- Tailwind CSS (with Tailwind Typography plugin)
+- Optional: Node.js backend for contact form submission
+
+🎨 UI should follow this live inspiration:
+https://rahul0xcdf-p0rtf0lio.vercel.app
+
+✅ Must Include:
+- Top navigation bar with links: Home, About, Projects, Skills, Workshops, Contact
+- Clicking each nav link should **smooth-scroll** to the corresponding section (anchor links)
+- Modern CLI-style layout:
+  - Section headers like: 
+    > About  
+    $ whoami  
+  - Use monospace or developer-themed fonts
+- Numbered sections: `01.`, `02.`, `03.`, etc.
+
+📄 Sections & Content:
+
+---
+
+1. **Hero Section**
+   - Name: Suchir M Velpanur
+   - Tagline: "CS Undergrad | Backend & ML Enthusiast | Aspiring SWE"
+   - Based in Bangalore, India
+   - Buttons:
+     - View Resume (PDF placeholder)
+     - Contact Me (scroll to Contact section)
+
+---
+
+2. **About Me**
+   - 3rd-year BTech CSE student at PES University, GPA: 9.1
+   - Interested in backend engineering, ML, cloud computing, and real-world systems
+   - Dedicated learner, curious about scaling systems and researching new tech
+
+---
+
+3. **Experience**
+   - 🔬 HPE – Project Intern (Jan 2025–Present)
+     - Built LLM-based diagnostic agent, REST API simulator
+
+   - 🧠 PESU CFIS – Research Intern (Jun–Aug 2024)
+     - Worked on AI for digital forensics, LLMs vs LSTMs
+
+   - 💼 Dyashin – Backend Intern (Jun–Jul 2024)
+     - Spring Boot DBMS, tested with Postman, AWS EC2 deploy
+
+---
+
+4. **Projects**
+   - OptimaSQL (Flask + PostgreSQL)
+   - DiagnoSys Bot (LangChain + Streamlit)
+   - VAD-based Music Generator (PyTorch)
+   - EduStream (Next.js + Django + Azure)
+   - TrafficSync (FastAPI + Google Maps)
+   - PseudoKube (Docker + Node.js)
+
+   - Each project should include:
+     - Title
+     - Description
+     - Technologies used (as tags/pills)
+     - GitHub or source link (placeholder)
+
+---
+
+5. **Skills**
+   - ~/Languages  
+     Python, Java, C++, JavaScript, R, Shell
+
+   - ~/ML & AI  
+     PyTorch, HuggingFace, LangChain, TensorFlow, Keras
+
+   - ~/Cybersecurity  
+     Burp Suite, Wireshark, Web Security, Linux, Applied Crypto
+
+   - ~/Cloud & Infra  
+     GCP, Docker, Kubernetes, Git, Terraform
+
+   - Optionally display **skill ratings or progress bars**
+
+---
+
+6. **Workshops**
+   - Kodikon 2.0 Hackathon Organizer
+   - Inquisitio 2024 Research Mentor
+   - Geek Girl Program – Web Security with Burp Suite (Aug 2024)
+
+---
+
+7. **Education**
+   - PES University – BTech CSE (2022–2026), GPA: 9.1
+   - Venkat International – CBSE 12th: 9.58, 10th: 9.74
+
+---
+
+8. **Achievements**
+   - 5× CNR Rao Scholarship (Top 5%)
+   - 1× MRD Scholarship (Top 10%)
+   - Hackathons: Great Bengaluru, IBM Z, EPOCH
+   - MUN Honorable Mention – Russia Delegate
+
+---
+
+9. **Contact**
+   - Email: smv1524@gmail.com
+   - GitHub: https://github.com/suchirmv-1524
+   - LinkedIn: https://linkedin.com/in/suchir-m-velpanur-519413296
+   - LeetCode: https://leetcode.com/u/suchircodezzz
+
+   Add a working **contact form**:
+   - Use Formspree or a Node.js API route
+   - Add validation and confirmation message
+
+---
+
+💡 Bonus:
+- Dark mode toggle (Tailwind)
+- Framer Motion animations on scroll
+- Sticky navbar
+- Mobile-friendly hamburger menu
+
+🔧 Output:
+- `components/` for Hero, About, Projects, etc.
+- `app/` or `pages/` directory (Next.js)
+- `public/` includes `resume.pdf` and `profile.png`
+- Deployed to Vercel or Replit-ready
+
+Placeholders for profile image and resume download should be added.
+

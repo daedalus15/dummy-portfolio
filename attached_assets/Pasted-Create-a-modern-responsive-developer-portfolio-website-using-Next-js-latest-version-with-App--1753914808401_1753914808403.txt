@@ -1,0 +1,193 @@
+Create a modern, responsive developer portfolio website using:
+
+- Next.js (latest version, with App Router)
+- Tailwind CSS for styling (with Tailwind Typography plugin)
+- Framer Motion for scroll-based animations
+- Optional Node.js backend (or fallback to Formspree) for the contact form
+
+Use this deployed portfolio as **styling inspiration**:
+https://rahul0xcdf-p0rtf0lio.vercel.app
+
+📌 **Design Requirements:**
+- Terminal/CLI-inspired layout
+- Sticky top navbar with sections:
+  > Home  
+  > About  
+  > Projects  
+  > Skills  
+  > Workshops  
+  > Contact
+- Clicking each nav item **smooth-scrolls** to that section
+- Section headers styled like:
+  > Projects  
+  $ ls projects/
+- Use **monospace font**, soft shadows, modern rounded sections
+- Fully mobile responsive
+- Include **dark mode toggle**
+
+📄 **SECTION CONTENT**
+
+---
+
+### 01. Hero Section
+Home
+$ whoami
+Suchir M Velpanur
+CS Undergrad | Backend & ML Enthusiast | Aspiring SWE
+Based in Bangalore, India
+
+yaml
+Copy
+Edit
+
+Buttons:
+- `View Resume` (PDF download placeholder)
+- `Contact Me` (scrolls to Contact section)
+
+---
+
+### 02. About Me
+About
+$ cat about.txt
+
+yaml
+Copy
+Edit
+- 3rd year BTech CSE @ PES University (GPA: 9.1/10)
+- Interest: Backend Engineering, Machine Learning, Cloud Computing, Scalable Systems
+- Achievements:
+  - 🏆 5× Prof. CNR Rao Scholarship (Top 5%)
+  - 🥇 1× Prof. MRD Scholarship (Top 10%)
+- Notable courses: DS&A, OS, DBMS, CN, ML, Cloud, Generative AI
+
+---
+
+### 03. Projects
+Projects
+$ ls projects/
+
+markdown
+Copy
+Edit
+
+Each project = card/grid entry with:
+- Title, short description, tech stack tags, GitHub icon (placeholder)
+
+- **OptimaSQL** – SQL query optimizer using TPC-H benchmark  
+  _Flask, React, PostgreSQL, Node.js_
+
+- **DiagnoSys Bot** – LLM assistant for debugging system issues  
+  _LangChain, Streamlit, Flask, ChromaDB_
+
+- **VAD Music Generator** – Emotion-aware multi-modal music rec  
+  _PyTorch, Transformers, Audiocraft_
+
+- **EduStream** – Azure-hosted e-learning portal  
+  _Next.js, Django, Azure PostgreSQL_
+
+- **TrafficSync** – Real-time traffic simulator using Google Maps  
+  _Node.js, Google Maps API, Three.js_
+
+- **PseudoKube** – Kubernetes-style cluster simulator  
+  _Python, FastAPI, Docker, Unix CLI_
+
+---
+
+### 04. Skills
+Skills
+$ skill --proficiency
+
+yaml
+Copy
+Edit
+
+Terminal-style categories:
+- ~/Languages: Python, Java, C++, R, Go, Shell  
+- ~/Frontend: React.js, Next.js, Tailwind CSS, Bootstrap  
+- ~/Backend: Node.js, Express.js, Spring Boot  
+- ~/Databases: MySQL, PostgreSQL, MongoDB, ScyllaDB  
+- ~/Tools: Git, Docker, Kubernetes, VS Code, GCP, AWS, Postman  
+- ~/Soft Skills: Innovation, Strategic Thinking, Presentations
+
+Use **progress bars or percentage meters** for proficiency (optional)
+
+---
+
+### 05. Workshops
+Workshops
+$ cat workshops.txt
+
+yaml
+Copy
+Edit
+
+- 🛡️ Web Security Workshop – Geek Girl Program (Aug 2024)  
+  _Covered Burp Suite, request interception, common web vulnerabilities_
+
+- 💡 Inquisitio Research Mentor – Guided student papers  
+- 🧑‍💻 Kodikon 2.0 – Nationwide Hackathon Organizer  
+- ⚙️ AlgoMania – Competitive Coding Contest Host
+
+---
+
+### 06. Education
+Education
+$ cat education.txt
+
+yaml
+Copy
+Edit
+
+- **PES University**, BTech CSE, 2022–2026  
+  GPA: 9.1  
+  Courses: ML, OS, DSA, AI, Cloud, GenAI, Cybersecurity
+
+- **Venkat Intl. Public School**  
+  - 12th GPA: 9.58 (2022)  
+  - 10th GPA: 9.74 (2020)
+
+---
+
+### 07. Accomplishments
+Achievements
+$ cat awards.log
+
+yaml
+Copy
+Edit
+
+- 🏅 Raffle Winner @ IBM Z Datathon 2024 (466 teams)
+- 🥈 Hon. Mention @ People's Conference MUN (Russia Delegate)
+- 🧠 Top 7/40 – EPOCH Datathon (AI/ML Club)
+- 🔐 7th/52 – CTF by CyberSec Club
+- 🏆 Top 9/27 – Multilingual Hack @ Great Bengaluru Hackathon
+
+---
+
+### 08. Contact
+Contact
+$ ping suchir
+
+markdown
+Copy
+Edit
+
+- Email: smv1524@gmail.com  
+- GitHub: https://github.com/suchirmv-1524  
+- LinkedIn: https://linkedin.com/in/suchir-m-velpanur-519413296  
+- LeetCode: https://leetcode.com/u/suchircodezzz/  
+- Include working contact form using Formspree or Node.js endpoint
+
+---
+
+### 🧱 Output Requirements
+- Use `app/` directory (Next.js App Router)
+- Components in `components/` folder
+- Static assets (PDF, images) in `public/`
+- Ready-to-deploy on Vercel or Replit
+- Dark mode toggle + scroll animations (Framer Motion)
+- Clean, terminal-style, mobile-friendly UI
+
+📎 Add placeholders for:
+- Profile photo
+- Resume PDF
